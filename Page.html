@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        China
+    </title>
+    <script>
+        function changePage(a,b){
+            document.getElementById("txt").innerHTML=a
+            document.getElementById("txt").setAttribute("src",b)
+        }
+    </script>
+</head>
+<body>
+    <button style="width: 100px;" onclick="changePage('Info on China','InfoA.html')">Info on China</button><button style="width: 100px;" onclick="changePage('Info not on China','InfoB.html')">Info not on China</button><br>
+    <h1 id="txt">
+        Info on China
+    </h1>
+    <iframe src="InfoB.html" id="frame" width="500" marginwidth="0" height="500" marginheight="0" scrolling="auto"></iframe>
+</body>
