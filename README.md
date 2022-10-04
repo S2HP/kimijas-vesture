@@ -1,2 +1,2 @@
 # programmesana
- apvienotais darbs 
+Apvienotais darbs
