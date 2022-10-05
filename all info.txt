@@ -21,6 +21,8 @@ nīderlandiešu dabaszinātnieks un ārsts Jans Baptista van Helmonts gaisam lī
 1774. gadā izdevās iegūt un aprakstīt "uguns gāzi" jeb "defloģistēto gaisu" – skābekli.
 Franču ķīmiķis Antuāns Lavuazjē (Antoine Laurent de Lavoisier) izskaidroja skābekļa lomu degšanas un oksidēšanas procesā, pierādīja vielu masas nezūdamību ķīmiskajās reakcijās. Šajā laika posmā par ķīmijas zinātnes teorētisko pamatu kļuva atommolekulārā teorija, tika atklāti vairāki kvantitatīvi likumi.
 
+
+
 Bilde[https://resources.cdn.uzdevumi.lv/1d538822-b7e2-41b8-9268-977f93be36aa/luvazj%C4%93.png]
 Attēlā: Lavuazjē – mūsdienu ķīmijas pamatlicējs.
 Bildes ielikšana: codeForTheImage.html
@@ -29,3 +31,21 @@ Bildes ielikšana: codeForTheImage.html
 
         19. gs. otrā puse — 20. gs. 60. gadi
 Šajā laika posmā  tika noskaidrota vielu uzbūve un ķīmisko pārvērtību būtība. Rodas ķīmijas lielrūpniecība. Īpaši strauji attīstās polimēru ražošana un ārstniecības līdzekļu pētniecība.
+
+Vēlers (Friedrich Wöhler) atklāja izomērijas parādību, kļuva skaidrs, ka vielu īpašības atkarīgas ne tikai no sastāva, bet arī no tā, kādā secībā atomi savienojas vielas molekulā.
+
+1803–1804. gadā angļu zinātnieks Džons Daltons izvirzīja un pamatoja teoriju par to, ka vielas vissīkākā daļiņa ir atoms.
+
+Zviedru ķīmiķis Jenss Bercēliuss  ieviesa mūsdienu simbolu sistēmu ķīmisko elementu apzīmējumiem.
+
+Itāļu fiziķis un ķīmiķis Amedeo Avogadro  izgudroja metodi vielu molekulārās masas noteikšanai, atklāja vairāku vielu molekulu kvantitatīvo sastāvu. 
+
+Krievu ķīmiķis Dmitrijs Mendeļejevs  1869. gadā formulēja periodisko likumu un grafiski attēloja ķīmisko elementu sistēmu periodiskajā tabulā.
+
+Vēlers atklāja izomērijas parādību, kļuva skaidrs, ka vielu īpašības atkarīgas ne tikai no sastāva, bet arī no tā, kādā secībā atomi savienojas vielas molekulā.
+
+Pētot šķīdumus, franču ķīmiķis Fransuā Rauls un J. Vant-Hofs atklāja šķīdumu koligatīvās īpašības. Turpinot šķīdumu īpašību pētījumus, S. Arrēniuss formulēja elektrolītiskās disociācijas teoriju. 
+
+amerikāņu ķīmiķis Gilberts Lūiss  un amerikāņu fiziķis un ķīmiķis Ērvings Lengmjūirs  izveidoja kovalentās ķīmiskās saites veidošanas modeli. Kvantu teorijas sasniegumu izmantošana ļāva amerikāņu ķīmiķim Lainasam Polingam  izveidot valences saišu metodi (1928–31), izvirzīt ideju par atomu orbitālu hibridizāciju (1928) un formulēt elektronegativitātes jēdzienu (1932).
+
+1929. gadā  Frīdrihs Hunds, Roberts Malikens un Džons Lenards-Džounss lika pamatus molekulāro orbitālu teorijai, kas padziļināja priekšstatu par ķīmiskās saites veidošanos. Revolūciju ķīmijas attīstībā veicināja jaunu instrumentālo metožu ieviešana vielu sastāva analīzē un uzbūves pētīšanā. 
