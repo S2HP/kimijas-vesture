@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      background-color: #474e5d;
+      font-family: Helvetica, sans-serif;
+    }
+    
+    
+    .timeline {
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      background-color: white;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -3px;
+    }
+    
+    
+    .container {
+      padding: 10px 40px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+    }
+    
+    
+    .container::after {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      right: -17px;
+      background-color: white;
+      border: 4px solid #FF9F55;
+      top: 15px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+    
+    
+    .left {
+      left: 0;
+    }
+    
+    
+    .right {
+      left: 50%;
+    }
+    
+    
+    .left::before {
+      content: " ";
+      height: 0;
+      position: absolute;
+      top: 22px;
+      width: 0;
+      z-index: 1;
+      right: 30px;
+      border: medium solid white;
+      border-width: 10px 0 10px 10px;
+      border-color: transparent transparent transparent white;
+    }
+    
+    
+    .right::before {
+      content: " ";
+      height: 0;
+      position: absolute;
+      top: 22px;
+      width: 0;
+      z-index: 1;
+      left: 30px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+    
+   
+    .right::after {
+      left: -16px;
+    }
+    
+  
+    .content {
+      padding: 20px 30px;
+      background-color: white;
+      position: relative;
+      border-radius: 6px;
+    }
+    
+   
+    @media screen and (max-width: 600px) {
+   
+      .timeline::after {
+      left: 31px;
+      }
+      
+      
+      .container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+      }
+      
+      
+      .container::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+      }
+    
+     
+      .left::after, .right::after {
+      left: 15px;
+      }
+      
+      
+      .right {
+      left: 0%;
+      }
+    }
+    </style>
+</head>
+<body>
+  <div class="timeline">
+<div class="container left">
+  <div class="content">
+      <h2>Pirms aptuveni miljons gadiem</h2>
+      <p>Mūsdienu cilvēka (Homo sapiens) priekštecis - Homo erectus apguva ķīmiska procesa - degšanas izmantošanu. Viņš iemācījās iekurt ugunskuru.</p>
+      <img src="https://www.ushistory.org/civ/images/00020928.jpg" alt="old dude uses rocks to light a fire"> <br>
+  </div>
+</div>
+<div class="container right">
+  <div class="content">
+      <h2>Pirms 9000 gadiem cilvēki iemācījās izmantot degšanas procesu mālu apdedzināšanai</h2>
+      <p>Gūstot iespēju izgatavot gan traukus, gan būvmateriālus. Apmēram tajā pašā laikā tika apgūta arī pirmā metāla - vara iegūšana no rūdas. Bet pirms apmēram 4 000 gadiem uzlabotā ugunskurā no rūdas sāka iegūt arī dzelzi.</p>
+      <img src="https://iwarm.techinfus.com/wp-content/uploads/obzhig-keramicheskih-izdelij-v-pechi.jpg" alt="Māla apdedzināšana." style="width:300px; height:180px">
+  </div>
+</div>
+<div class="container left">
+  <div class="content">
+      <h2>4.-16. gs. Alķīmijas periods</h2>
+      <p>Mūsdienās šo ķīmijas vēsturiskās attīstības posmu sauc par alķīmijas periodu. Toreiz centās atrast īpašu vielu „filozofu akmeni”, kas metālus un citas vielas varētu pārvērst zeltā. Meklējumi beidzās neveiksmīgi, tomēr mēģinājumos tika iegūtas daudzas jaunas vielas un radīti pirmie ķīmijas laboratorijas trauki. Veiktie atklājumi kļuva par mūsdienu ķīmijas pamatu.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/JosephWright-Alchemist-1.jpg" alt="Alķīmijas bilde" style="width:300px; height:360px"> <br>
+  </div>
+</div>
+<div class="container right">
+  <div class="content">
+      <h2> 16.-19. gs. pirmā puse</h2>
+      <p>Izcilais pētnieks Paracelzs nodibināja mācību, no kuras vēlāk attīstījās farmācija. Šo laika posmu uzskata par mūsdienu ķīmijas sākumu. Pētījumus sāka veikt plānveidīgi, ar noteiktu mērķi, un tika izmantotas dažādas mērierīces un iekārtas. Tika atklāti nozīmīgākie ķīmijas pamatlikumi un gaisa sastāvs...</p>
+      <a href="Page1.html">Vairāk...</a>
+  </div>
+</div>
+<div class="container left">
+  <div class="content">
+    <h1>
+      <h2>19. gs. otrā puse — 20. gs. 60. gadi</h2> 
+    </h1>
+    <p>
+      Šajā laika posmā  tika noskaidrota vielu uzbūve un ķīmisko pārvērtību būtība. Rodas ķīmijas lielrūpniecība. Īpaši strauji attīstās polimēru ražošana un ārstniecības līdzekļu pētniecība.
+    </p>
+    <a href="Page2.html">Vairāk...</a>
+</div>
+</body>
