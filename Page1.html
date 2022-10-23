@@ -1,162 +1,29 @@
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      
-      body {
-        background-color: #474e5d;
-        font-family: Helvetica, sans-serif;
-      }
-      
-      
-      .timeline {
-        position: relative;
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-      
-      
-      .timeline::after {
-        content: '';
-        position: absolute;
-        width: 6px;
-        background-color: white;
-        top: 0;
-        bottom: 0;
-        left: 50%;
-        margin-left: -3px;
-      }
-      
-      
-      .container {
-        padding: 10px 40px;
-        position: relative;
-        background-color: inherit;
-        width: 50%;
-      }
-      
-      
-      .container::after {
-        content: '';
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        right: -17px;
-        background-color: white;
-        border: 4px solid #FF9F55;
-        top: 15px;
-        border-radius: 50%;
-        z-index: 1;
-      }
-      
-      
-      .left {
-        left: 0;
-      }
-      
-      
-      .right {
-        left: 50%;
-      }
-      
-      
-      .left::before {
-        content: " ";
-        height: 0;
-        position: absolute;
-        top: 22px;
-        width: 0;
-        z-index: 1;
-        right: 30px;
-        border: medium solid white;
-        border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent white;
-      }
-      
-      
-      .right::before {
-        content: " ";
-        height: 0;
-        position: absolute;
-        top: 22px;
-        width: 0;
-        z-index: 1;
-        left: 30px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
-      }
-      
-     
-      .right::after {
-        left: -16px;
-      }
-      
-    
-      .content {
-        padding: 20px 30px;
-        background-color: white;
-        position: relative;
-        border-radius: 6px;
-      }
-      
-     
-      @media screen and (max-width: 600px) {
-     
-        .timeline::after {
-        left: 31px;
-        }
-        
-        
-        .container {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-        }
-        
-        
-        .container::before {
-        left: 60px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
-        }
-      
-       
-        .left::after, .right::after {
-        left: 15px;
-        }
-        
-        
-        .right {
-        left: 0%;
-        }
-      }
-      </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body> 
   <div class="timeline">
     <div class="container left">
-        <div class="content">
-  <p>
-      Izcilais pētnieks Paracelzs nodibināja mācību, no kuras vēlāk attīstījās farmācija. Šo laika posmu uzskata par mūsdienu ķīmijas sākumu. Pētījumus sāka veikt plānveidīgi, ar noteiktu mērķi, un tika izmantotas dažādas mērierīces un iekārtas. Tika atklāti nozīmīgākie ķīmijas pamatlikumi un gaisa sastāvs.
-      Roberts Boils pirms vairāk nekā 300 gadiem lika pamatus mācībai par vielas sīkākajām daļiņām — atomiem. Pievērsa uzmanību precīzu mērījumu nozīmei eksperimentālajā darbībā, kā arī nosauca elementus kā galvenos objektus ķīmiķu meklējumos.
-      Tiek formulēta korpuskulārā teorija.
-  </p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg" alt="Roberts Boils" style= "width: 300px; height: 320px;">
-  </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <p>
-        Nīderlandiešu dabaszinātnieks un ārsts Jans Baptista van Helmonts gaisam līdzīgajām vielām ieviesa nosaukumu – ‘gāze’.
-        1774. gadā izdevās iegūt un aprakstīt "uguns gāzi" jeb "defloģistēto gaisu" – skābekli.
-        Franču ķīmiķis Antuāns Lavuazjē izskaidroja skābekļa lomu degšanas un oksidēšanas procesā, pierādīja vielu masas nezūdamību ķīmiskajās reakcijās. Šajā laika posmā par ķīmijas zinātnes teorētisko pamatu kļuva atommolekulārā teorija, tika atklāti vairāki kvantitatīvi likumi.
-    </p>
-    <img src="https://wikiless.org/media/wikipedia/commons/8/85/David_-_Portrait_of_Monsieur_Lavoisier_%28cropped%29.jpg" alt="Lavuazjē – mūsdienu ķīmijas pamatlicējs." style= "width: 300px; height: 320px;">
-  </div></div>
+      <div class="content">
+        <p>
+          Izcilais pētnieks Paracelzs nodibināja mācību, no kuras vēlāk attīstījās farmācija. Šo laika posmu uzskata par mūsdienu ķīmijas sākumu. Pētījumus sāka veikt plānveidīgi, ar noteiktu mērķi, un tika izmantotas dažādas mērierīces un iekārtas. Tika atklāti nozīmīgākie ķīmijas pamatlikumi un gaisa sastāvs.
+          Roberts Boils pirms vairāk nekā 300 gadiem lika pamatus mācībai par vielas sīkākajām daļiņām — atomiem. Pievērsa uzmanību precīzu mērījumu nozīmei eksperimentālajā darbībā, kā arī nosauca elementus kā galvenos objektus ķīmiķu meklējumos.
+          Tiek formulēta korpuskulārā teorija.
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg" alt="Roberts Boils">
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <p>
+          Nīderlandiešu dabaszinātnieks un ārsts Jans Baptista van Helmonts gaisam līdzīgajām vielām ieviesa nosaukumu – ‘gāze’.
+          1774. gadā izdevās iegūt un aprakstīt "uguns gāzi" jeb "defloģistēto gaisu" – skābekli.
+          Franču ķīmiķis Antuāns Lavuazjē izskaidroja skābekļa lomu degšanas un oksidēšanas procesā, pierādīja vielu masas nezūdamību ķīmiskajās reakcijās. Šajā laika posmā par ķīmijas zinātnes teorētisko pamatu kļuva atommolekulārā teorija, tika atklāti vairāki kvantitatīvi likumi.
+        </p>
+        <img src="https://wikiless.org/media/wikipedia/commons/8/85/David_-_Portrait_of_Monsieur_Lavoisier_%28cropped%29.jpg" alt="Lavuazjē – mūsdienu ķīmijas pamatlicējs.">
+      </div>
+    </div>
   </div>
   <a href="index.html" style="color: aliceblue;">Atgriezties uz Galveno Lapu.</a>
 </body>

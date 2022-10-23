@@ -1,200 +1,66 @@
 <!DOCTYPE html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      
-      body {
-        background-color: #474e5d;
-        font-family: Helvetica, sans-serif;
-      }
-      
-      
-      .timeline {
-        position: relative;
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-      
-      
-      .timeline::after {
-        content: '';
-        position: absolute;
-        width: 6px;
-        background-color: white;
-        top: 0;
-        bottom: 0;
-        left: 50%;
-        margin-left: -3px;
-      }
-      
-      
-      .container {
-        padding: 10px 40px;
-        position: relative;
-        background-color: inherit;
-        width: 50%;
-      }
-      
-      
-      .container::after {
-        content: '';
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        right: -17px;
-        background-color: white;
-        border: 4px solid #FF9F55;
-        top: 15px;
-        border-radius: 50%;
-        z-index: 1;
-      }
-      
-      
-      .left {
-        left: 0;
-      }
-      
-      
-      .right {
-        left: 50%;
-      }
-      
-      
-      .left::before {
-        content: " ";
-        height: 0;
-        position: absolute;
-        top: 22px;
-        width: 0;
-        z-index: 1;
-        right: 30px;
-        border: medium solid white;
-        border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent white;
-      }
-      
-      
-      .right::before {
-        content: " ";
-        height: 0;
-        position: absolute;
-        top: 22px;
-        width: 0;
-        z-index: 1;
-        left: 30px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
-      }
-      
-     
-      .right::after {
-        left: -16px;
-      }
-      
-    
-      .content {
-        padding: 20px 30px;
-        background-color: white;
-        position: relative;
-        border-radius: 6px;
-      }
-      
-     
-      @media screen and (max-width: 600px) {
-     
-        .timeline::after {
-        left: 31px;
-        }
-        
-        
-        .container {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-        }
-        
-        
-        .container::before {
-        left: 60px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
-        }
-      
-       
-        .left::after, .right::after {
-        left: 15px;
-        }
-        
-        
-        .right {
-        left: 0%;
-        }
-      }
-      </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="timeline">
-<div class="container left">
-  <div class="content">
-      <h2>Frīdrihs Vēlers (dzimis 1800. gada 31. jūlijā, miris 1882. gada 23. septembrī)</h2>
-      <p>Frīdrihs Vēlers (Friedrich Wöhler) atklāja izomērijas parādību, kļuva skaidrs, ka vielu īpašības atkarīgas ne tikai no sastāva, bet arī no tā, kādā secībā atomi savienojas vielas molekulā.</p>
-      <img src= "https://upload.wikimedia.org/wikipedia/commons/3/32/Friedrich_W%C3%B6hler_Litho.jpg" alt="Frīdrihs Vēlers" style="width:300px; height:360px"> <br>
+    <div class="container left">
+      <div class="content">
+        <h2>Frīdrihs Vēlers (dzimis 1800. gada 31. jūlijā, miris 1882. gada 23. septembrī)</h2>
+        <p>Frīdrihs Vēlers (Friedrich Wöhler) atklāja izomērijas parādību, kļuva skaidrs, ka vielu īpašības atkarīgas ne tikai no sastāva, bet arī no tā, kādā secībā atomi savienojas vielas molekulā.</p>
+        <img src= "https://upload.wikimedia.org/wikipedia/commons/3/32/Friedrich_W%C3%B6hler_Litho.jpg" alt="Frīdrihs Vēlers">
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>Džons Daltons (dzimis 1766. gada 6. septembrī, miris 1844. gada 27. jūlijā)</h2>
+        <p>Angļu zinātnieks Džons Daltons izvirzīja un pamatoja teoriju par to, ka vielas vissīkākā daļiņa ir atoms.</p>
+        <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Dalton_John_desk.jpg/800px-Dalton_John_desk.jpg" alt="Džons Daltons">
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2>Jenss Jākobs Bercēliuss (dzimis 1779. gadā , miris 1848. gada 7. augustā)</h2>
+        <p>Zviedru ķīmiķis Jenss Bercēliuss ieviesa mūsdienu simbolu sistēmu ķīmisko elementu apzīmējumiem.</p>
+        <img src= "https://upload.wikimedia.org/wikipedia/commons/1/18/J%C3%B6ns_Jacob_Berzelius.jpg" alt="Jenns Bercēliuss">
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2> Amedeo Avogadro (dzimis 1776. gada 9. augustā, miris 1856. gada 9. jūlijā)</h2>
+        <p>Itāļu fiziķis un ķīmiķis Amedeo Avogadro izgudroja metodi vielu molekulārās masas noteikšanai, atklāja vairāku vielu molekulu kvantitatīvo sastāvu. Par godu viņam dots nosaukums fizikā un ķīmijā nozīmīgai konstantei — Avogadro skaitlis, kas raksturo elementāro vienību (atomu, molekulu, jonu vai citu daļiņu) skaitu 1 molā vielas, kas ir viena no septiņām Starptautiskās mērvienību sistēmas (SI) bāzes vienībām.</p>
+        <img src= "https://upload.wikimedia.org/wikipedia/commons/3/3d/Avogadro_Amedeo.jpg" alt="Amedeo Avogadro">
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2> Dmitrijs Mendeļejevs (dzimis 1834. gada 8. februārī, miris 1907. gada 2. februārī)</h2>
+        <p>Krievu ķīmiķis Dmitrijs Mendeļejevs  1869. gadā formulēja periodisko likumu un grafiski attēloja ķīmisko elementu sistēmu periodiskajā tabulā.</p>
+        <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/DIMendeleevCab.jpg/800px-DIMendeleevCab.jpg" alt="Dmitrijs Mendeļejevs">
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2> Jakobs Henriks van't Hofs (dzimis 1852. gada 30. augustā, miris 1911. gada 1. martā)</h2>
+        <p>Pētot šķīdumus, franču ķīmiķis Fransuā Rauls un J. Vant-Hofs atklāja šķīdumu koligatīvās īpašības. Turpinot šķīdumu īpašību pētījumus, S. Arrēniuss formulēja elektrolītiskās disociācijas teoriju. </p>
+        <img src= "https://upload.wikimedia.org/wikipedia/commons/a/a4/Vant_Hoff.jpg" alt="Jakobs Henriks van't Hofs">
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2> Gilberts N. Lūiss (dzimis 1875. gada 23. oktobris – 1946. gada 23. marts)</h2>
+        <p>Amerikāņu ķīmiķis Gilberts Lūiss  un amerikāņu fiziķis un ķīmiķis Ērvings Lengmjūirs  izveidoja kovalentās ķīmiskās saites veidošanas modeli. Kvantu teorijas sasniegumu izmantošana ļāva amerikāņu ķīmiķim Lainasam Polingam  izveidot valences saišu metodi (1928–31), izvirzīt ideju par atomu orbitālu hibridizāciju (1928) un formulēt elektronegativitātes jēdzienu (1932).</p>
+        <img src= "https://upload.wikimedia.org/wikipedia/en/2/21/Gilbert_N_Lewis.jpg" alt="Gilberts Lūiss">
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2> 1929. gadā Frīdrihs Hunds, Roberts Malikens un Džons Lenards-Džounss</h2>
+        <p>1929. gadā  Frīdrihs Hunds, Roberts Malikens un Džons Lenards-Džounss lika pamatus molekulāro orbitālu teorijai, kas padziļināja priekšstatu par ķīmiskās saites veidošanos. Revolūciju ķīmijas attīstībā veicināja jaunu instrumentālo metožu ieviešana vielu sastāva analīzē un uzbūves pētīšanā. </p>
+        <img src= "https://resources.cdn.uzdevumi.lv/ac51249d-05ab-45d9-8cb3-033de3c2d3cb/pic4_2_3_1.png" alt="Molekulārā orbitālu teorijas attēlojums">
+      </div>
+    </div>
   </div>
-</div>
-<div class="container right">
-  <div class="content">
-      <h2>Džons Daltons (dzimis 1766. gada 6. septembrī, miris 1844. gada 27. jūlijā)</h2>
-      <p>Angļu zinātnieks Džons Daltons izvirzīja un pamatoja teoriju par to, ka vielas vissīkākā daļiņa ir atoms.</p>
-      <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Dalton_John_desk.jpg/800px-Dalton_John_desk.jpg" alt="Džons Daltons." style="width:300px; height:360px">
-  </div>
-</div>
-<div class="container left">
-  <div class="content">
-      <h2>Jenss Jākobs Bercēliuss (dzimis 1779. gadā , miris 1848. gada 7. augustā)</h2>
-      <p>Zviedru ķīmiķis Jenss Bercēliuss ieviesa mūsdienu simbolu sistēmu ķīmisko elementu apzīmējumiem.</p>
-      <img src= "https://upload.wikimedia.org/wikipedia/commons/1/18/J%C3%B6ns_Jacob_Berzelius.jpg" alt="Jenns Bercēliuss" style="width:300px; height:380px"> <br>
-  </div>
-</div>
-<div class="container right">
-  <div class="content">
-      <h2> Amedeo Avogadro (dzimis 1776. gada 9. augustā, miris 1856. gada 9. jūlijā)</h2>
-      <p>Itāļu fiziķis un ķīmiķis Amedeo Avogadro izgudroja metodi vielu molekulārās masas noteikšanai, atklāja vairāku vielu molekulu kvantitatīvo sastāvu. Par godu viņam dots nosaukums fizikā un ķīmijā nozīmīgai konstantei — Avogadro skaitlis, kas raksturo elementāro vienību (atomu, molekulu, jonu vai citu daļiņu) skaitu 1 molā vielas, kas ir viena no septiņām Starptautiskās mērvienību sistēmas (SI) bāzes vienībām.</p>
-      <img src= "https://upload.wikimedia.org/wikipedia/commons/3/3d/Avogadro_Amedeo.jpg" alt="Amedeo Avogadro" style="width:300px; height:380px">
-  </div>
-</div>
-<div class="container left">
-  <div class="content">
-      <h2> Dmitrijs Mendeļejevs (dzimis 1834. gada 8. februārī, miris 1907. gada 2. februārī)</h2>
-      <p>Krievu ķīmiķis Dmitrijs Mendeļejevs  1869. gadā formulēja periodisko likumu un grafiski attēloja ķīmisko elementu sistēmu periodiskajā tabulā.</p>
-      <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/DIMendeleevCab.jpg/800px-DIMendeleevCab.jpg" alt="Dmitrijs Mendeļejevs" style="width:300px; height:380px">
-  </div>
-</div>
-<div class="container right">
-  <div class="content">
-      <h2> Jakobs Henriks van't Hofs (dzimis 1852. gada 30. augustā, miris 1911. gada 1. martā)</h2>
-      <p>Pētot šķīdumus, franču ķīmiķis Fransuā Rauls un J. Vant-Hofs atklāja šķīdumu koligatīvās īpašības. Turpinot šķīdumu īpašību pētījumus, S. Arrēniuss formulēja elektrolītiskās disociācijas teoriju. </p>
-      <img src= "https://upload.wikimedia.org/wikipedia/commons/a/a4/Vant_Hoff.jpg" alt="Jakobs Henriks van't Hofs" style="width:300px; height:380px">
-  </div>
-</div>
-<div class="container left">
-  <div class="content">
-      <h2> Gilberts N. Lūiss (dzimis 1875. gada 23. oktobris – 1946. gada 23. marts)</h2>
-      <p>Amerikāņu ķīmiķis Gilberts Lūiss  un amerikāņu fiziķis un ķīmiķis Ērvings Lengmjūirs  izveidoja kovalentās ķīmiskās saites veidošanas modeli. Kvantu teorijas sasniegumu izmantošana ļāva amerikāņu ķīmiķim Lainasam Polingam  izveidot valences saišu metodi (1928–31), izvirzīt ideju par atomu orbitālu hibridizāciju (1928) un formulēt elektronegativitātes jēdzienu (1932).</p>
-      <img src= "https://upload.wikimedia.org/wikipedia/en/2/21/Gilbert_N_Lewis.jpg" alt="Gilberts Lūiss" style="width:300px; height:380px">
-  </div>
-</div>
-<div class="container right">
-  <div class="content">
-      <h2> 1929. gadā Frīdrihs Hunds, Roberts Malikens un Džons Lenards-Džounss</h2>
-      <p>1929. gadā  Frīdrihs Hunds, Roberts Malikens un Džons Lenards-Džounss lika pamatus molekulāro orbitālu teorijai, kas padziļināja priekšstatu par ķīmiskās saites veidošanos. Revolūciju ķīmijas attīstībā veicināja jaunu instrumentālo metožu ieviešana vielu sastāva analīzē un uzbūves pētīšanā. </p>
-      <img src= "https://resources.cdn.uzdevumi.lv/ac51249d-05ab-45d9-8cb3-033de3c2d3cb/pic4_2_3_1.png" alt="Molekulārā orbitālu teorijas attēlojums" style="width:300px; height:180px">
-  </div>
-</div>
-</div>
-<a href="index.html" style="color: aliceblue;">Atgriezties uz Galveno Lapu</a>
+  <a href="index.html" style="color: aliceblue;">Atgriezties uz Galveno Lapu</a>
 </body>
